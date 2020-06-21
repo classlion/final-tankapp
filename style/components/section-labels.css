@@ -1,0 +1,18 @@
+.section-labels-content {
+    display: none;
+}
+
+.section-labels {
+    background-color: #f8f8f8
+}
+
+.label-img {}
+
+@media (min-width: 900px) {
+    .section-labels-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+}

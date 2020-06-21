@@ -1,0 +1,30 @@
+.card {}
+
+.card-title {}
+
+.card-description {}
+
+.card-image {}
+
+.card-image>img {}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    margin-right: 20px;
+}
+
+.card-description {
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media (min-width: 800px) {
+    .card-description {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}

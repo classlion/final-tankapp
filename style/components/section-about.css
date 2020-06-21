@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+    .section-about {
+        background-image: url(../../img/macbook-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: right
+    }
+    .section-about .row {
+        width: 40%;
+        ;
+    }
+}
