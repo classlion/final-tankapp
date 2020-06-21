@@ -45,20 +45,20 @@
         .hero-img {
             display: inline-block;
             position: absolute;
-            right: 0;
+            right: 30px;
             bottom: 0;
-            max-width: 35%;
+            max-width: 250px;
         }
     }
     
     @media (min-width: 800px) {
         .hero {
             text-align: left;
-            height: 843px;
             padding-top: 92px;
         }
         .hero-img {
-            max-width: 50%;
+            max-width: 350px;
+            bottom: 0;
         }
         .hero-title {
             font-size: 52px;
@@ -78,9 +78,10 @@
     
     @media (min-width: 1300px) {
         .hero-img {
-            max-width: 40%;
+            max-width: 550px;
         }
         .hero {
             background-image: url(../../img/banner-bg.jpg);
+            height: 843px;
         }
     }

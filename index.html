@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="style/main.css">
 
 </head>
@@ -67,7 +68,7 @@
                 </nav>
             </header>
         </div>
-
+        <!-- header ending -->
         <!-- hero -->
         <section class="hero">
 
@@ -110,6 +111,42 @@
         <!-- Labels section - add adoptive slider -->
         <div class="section-labels">
             <div class="container">
+                <div class="swiper">
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <figure class="figure">
+                                    <img class="label-img" src="img/evernote-logo.png" alt="evernote">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="label-img">
+                                    <img src="img/microsoft-logo.png" alt="evernote">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="label-img">
+                                    <img src="img/google-logo.png" alt="evernote">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="label-img">
+                                    <img src="img/sony-logo.png" alt="evernote">
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure class="label-img">
+                                    <img src="img/firefox-logo.png" alt="evernote">
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+                </div>
                 <section class="section section-labels-content">
 
                     <figure class="figure">
@@ -279,6 +316,7 @@
 
 
     </div>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="js/main.js"></script>
 </body>
 
