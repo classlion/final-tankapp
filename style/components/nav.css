@@ -11,7 +11,8 @@
 }
 
 .navbar-nav>li {
-    padding: 0 10px;
+    padding-right: 21px;
+    padding-bottom: 4px;
 }
 
 .navbar-nav>li>a {
@@ -19,7 +20,7 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #2d394c;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .navbar-nav>li>a:hover {

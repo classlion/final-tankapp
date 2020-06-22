@@ -20,14 +20,15 @@
         text-transform: uppercase;
         margin: 0;
         padding-bottom: 12px;
+        line-height: 1.38;
     }
     
     .hero-subtitle {
         font-size: 20px;
         font-weight: 130;
         margin: 0;
-        font-style: italic;
         margin-bottom: 12px;
+        font-weight: 300;
     }
     
     .hero-img {
@@ -37,7 +38,7 @@
     .badge {
         background-color: #ffce54;
         text-transform: uppercase;
-        padding: 7px;
+        padding: 6px 9px;
         border-radius: 4px;
     }
     
@@ -65,23 +66,28 @@
             font-weight: 700;
             text-transform: uppercase;
             margin: 0;
-            padding-bottom: 42px;
+            padding-bottom: 22px;
         }
         .hero-subtitle {
-            font-size: 24px;
-            font-weight: 130;
+            font-size: 23px;
+            font-weight: 100px;
             margin: 0;
-            font-style: italic;
-            margin-bottom: 70px;
+            margin-bottom: 68px;
+            letter-spacing: 0px;
         }
     }
     
     @media (min-width: 1300px) {
         .hero-img {
-            max-width: 550px;
+            max-width: 575px;
+            right: 85px;
         }
         .hero {
             background-image: url(../../img/banner-bg.jpg);
             height: 843px;
+        }
+        .hero-column {
+            margin-top: 115px;
+            margin-left: 30px;
         }
     }

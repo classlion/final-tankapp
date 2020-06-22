@@ -3,8 +3,8 @@
     margin: 0;
     border-radius: 0;
     border: 1px solid transparent;
-    font-size: 18px;
-    padding: 0 25px;
+    font-size: 20px;
+    padding: 0 20px;
     outline: none;
     text-transform: none;
     text-align: center;
@@ -34,7 +34,7 @@
 .button-primary {
     color: #ffffff;
     background-color: #77c344;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .button-primary:hover {
@@ -70,7 +70,7 @@
 @media (min-width: 800px) {
     .button-desktop {
         display: inline-block;
-        margin-left: 36px;
+        margin-left: 35px;
     }
     .button-mobile {
         display: none;
