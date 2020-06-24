@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     margin-right: 50px;
+    margin-top: 10px;
 }
 
 .footer-nav-item {
@@ -20,10 +21,18 @@
     padding-left: 23px;
 }
 
+.footer-nav-item:hover {
+    text-decoration: underline;
+}
+
 .footer-nav-icon {
     padding-right: 8px;
     padding-left: 21px;
     font-size: 23px;
+}
+
+.footer-nav-icon:hover {
+    text-decoration: underline black;
 }
 
 .first {

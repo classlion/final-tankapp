@@ -7,7 +7,6 @@
     display: flex;
     list-style: none;
     justify-content: center;
-    margin-left: 30px;
     font-weight: bold;
 }
 
@@ -54,5 +53,8 @@
     }
     .section-why .card-icon {
         margin-right: 35px;
+    }
+    .pagination {
+        margin-left: 30px;
     }
 }

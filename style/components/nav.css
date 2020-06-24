@@ -86,13 +86,16 @@
 }
 
 .navbar-nav-mobile {
+    z-index: 2;
     display: none;
     list-style: none;
     position: absolute;
     right: 0;
-    width: 150px;
+    width: 250px;
     background-color: white;
     padding: 10px 20px;
+    border: 2px grey solid;
+    border-radius: 10px;
 }
 
 .navbar-nav-mobile>li>a {
@@ -100,6 +103,10 @@
     font-weight: 400;
     text-transform: uppercase;
     color: #2d394c;
+}
+
+.navbar-nav-mobile>li>a:hover {
+    color: #6699cc;
 }
 
 @media (min-width: 800px) {
