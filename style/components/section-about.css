@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .section-about {
     padding: 70px 0;
 }
@@ -23,5 +30,4 @@
         background-position: right center;
         margin-top:
     }
-    .about-cards {}
 }

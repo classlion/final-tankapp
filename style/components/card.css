@@ -1,6 +1,9 @@
-.card {
-    ;
-}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 .card-title {
     font-weight: lighter;
@@ -12,7 +15,11 @@
 }
 
 .card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 

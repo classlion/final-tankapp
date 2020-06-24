@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .section {
     position: relative;
 }
@@ -26,17 +33,6 @@
     background-image: rgba(000, 000, 000, 0.6);
     opacity: 0.85;
 }
-
-.section-footer {
-    background-color: #f1f1f2;
-}
-
-.section-why {
-    background-color: #f1f1f2;
-    background: url(../../img/Rectangle-51.png) right center no-repeat #f1f1f2;
-}
-
-.section-foreground {}
 
 .section-title {
     font-size: 30px;

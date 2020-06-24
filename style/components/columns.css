@@ -6,14 +6,6 @@
     padding: 10px;
 }
 
-.columns-large {}
-
-.columns-large .column {}
-
-.columns-medium {}
-
-.columns-medium .column {}
-
 @media (min-width: 480px) {
     .columns {
         display: flex;

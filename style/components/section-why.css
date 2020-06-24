@@ -1,11 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .section-why {
+    background-color: #f1f1f2;
+    background: url(../../img/Rectangle-51.jpg) right center no-repeat #f1f1f2;
     padding-top: 70px;
     padding-bottom: 110px;
 }
 
 .pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     font-weight: bold;
 }

@@ -1,93 +1,102 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.hero {
+    background-color: #6699cc;
+    height: 100%;
+    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 167, 214, 1)), color-stop(41%, rgba(104, 174, 223, 1)), color-stop(57%, rgba(104, 174, 224, 1)), to(rgba(93, 161, 207, 1)));
+    background: -o-linear-gradient(top, rgba(100, 167, 214, 1) 0%, rgba(104, 174, 223, 1) 41%, rgba(104, 174, 224, 1) 57%, rgba(93, 161, 207, 1) 100%);
+    background: linear-gradient(to bottom, rgba(100, 167, 214, 1) 0%, rgba(104, 174, 223, 1) 41%, rgba(104, 174, 224, 1) 57%, rgba(93, 161, 207, 1) 100%);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap-hero {
+    position: relative;
+}
+
+.hero-title {
+    padding-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 12px;
+    line-height: 1.38;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: 130;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 300;
+}
+
+.hero-img {
+    display: none;
+}
+
+.badge {
+    background-color: #ffce54;
+    text-transform: uppercase;
+    padding: 6px 9px;
+    border-radius: 4px;
+}
+
+@media (min-width: 600px) {
+    .hero-img {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 800px) {
     .hero {
-        background-color: #6699cc;
-        height: 100%;
-        color: white;
-        background: linear-gradient(to bottom, rgba(100, 167, 214, 1) 0%, rgba(104, 174, 223, 1) 41%, rgba(104, 174, 224, 1) 57%, rgba(93, 161, 207, 1) 100%);
-        background-size: cover;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
+        text-align: left;
+        padding-top: 92px;
     }
-    
-    .wrap-hero {
-        position: relative;
+    .hero-img {
+        max-width: 350px;
+        bottom: 0;
     }
-    
     .hero-title {
-        padding-top: 12px;
-        font-size: 24px;
+        font-size: 52px;
         font-weight: 700;
         text-transform: uppercase;
         margin: 0;
-        padding-bottom: 12px;
-        line-height: 1.38;
+        padding-bottom: 22px;
     }
-    
     .hero-subtitle {
-        font-size: 20px;
-        font-weight: 130;
+        font-size: 23px;
+        font-weight: 100px;
         margin: 0;
-        margin-bottom: 12px;
-        font-weight: 300;
+        margin-bottom: 68px;
+        letter-spacing: 0px;
     }
-    
+}
+
+@media (min-width: 1300px) {
     .hero-img {
-        display: none;
+        max-width: 575px;
+        right: 85px;
     }
-    
-    .badge {
-        background-color: #ffce54;
-        text-transform: uppercase;
-        padding: 6px 9px;
-        border-radius: 4px;
+    .hero {
+        background-image: url(../../img/banner-bg.jpg);
+        height: 843px;
     }
-    
-    @media (min-width: 600px) {
-        .hero-img {
-            display: inline-block;
-            position: absolute;
-            right: 30px;
-            bottom: 0;
-            max-width: 250px;
-        }
+    .hero-column {
+        margin-top: 115px;
+        margin-left: 30px;
     }
-    
-    @media (min-width: 800px) {
-        .hero {
-            text-align: left;
-            padding-top: 92px;
-        }
-        .hero-img {
-            max-width: 350px;
-            bottom: 0;
-        }
-        .hero-title {
-            font-size: 52px;
-            font-weight: 700;
-            text-transform: uppercase;
-            margin: 0;
-            padding-bottom: 22px;
-        }
-        .hero-subtitle {
-            font-size: 23px;
-            font-weight: 100px;
-            margin: 0;
-            margin-bottom: 68px;
-            letter-spacing: 0px;
-        }
-    }
-    
-    @media (min-width: 1300px) {
-        .hero-img {
-            max-width: 575px;
-            right: 85px;
-        }
-        .hero {
-            background-image: url(../../img/banner-bg.jpg);
-            height: 843px;
-        }
-        .hero-column {
-            margin-top: 115px;
-            margin-left: 30px;
-        }
-    }
+}
