@@ -76,3 +76,11 @@
         display: none;
     }
 }
+
+.button-primary-desktop-big {
+    padding: 0 58px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-radius: 3px;
+    hyphens: none;
+}

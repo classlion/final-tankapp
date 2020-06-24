@@ -2,6 +2,7 @@
     position: relative;
     margin-bottom: 24px;
     display: flex;
+    position: relative;
 }
 
 .input,
@@ -116,7 +117,7 @@
 }
 
 .form-icon:not(.form-icon-flip)~.input {
-    padding-left: 40px !important;
+    padding-left: 75px !important;
 }
 
 .form-icon-flip~.input {
@@ -138,7 +139,45 @@
     font-size: 19px;
 }
 
-.section-form-content {
-    max-width: 856px;
-    margin: 0 auto;
+.input-big {
+    height: 70px;
+    border-radius: 3px;
+    border: 1px grey solid;
+    font-size: 25px;
+    letter-spacing: 0;
+}
+
+.form-icon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+.form-icon:hover {
+    text-decoration: none;
+}
+
+.form-icon:not(a):not(button):not(input) {
+    pointer-events: none;
+}
+
+.form-icon-flip {
+    right: 0;
+    left: auto;
+}
+
+.form-icon:not(.form-icon-flip)~.input {
+    padding-left: 40px;
+}
+
+.form-icon-flip~.input {
+    padding-right: 40px;
 }
