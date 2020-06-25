@@ -7,7 +7,7 @@
 
 .section-why {
     background-color: #f1f1f2;
-    background: url(../../img/Rectangle-51.jpg) right center no-repeat #f1f1f2;
+    background: #f1f1f2;
     padding-top: 70px;
     padding-bottom: 110px;
 }
@@ -41,6 +41,7 @@
 @media (min-width: 1200px) {
     .section-why {
         padding-top: 170px;
+        ackground: url(../../img/Rectangle-51.jpg) right center no-repeat #f1f1f2;
     }
     .section-why-title {
         font-weight: lighter;
