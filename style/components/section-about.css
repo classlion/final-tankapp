@@ -14,20 +14,10 @@
         padding-top: 110px;
         margin-bottom: 43px;
     }
-    .section-about .row-about {
-        width: 42%;
-    }
     .section-about .section-title {
         text-align: end;
     }
-    .row-section-header {
-        width: 61%;
-        padding-bottom: 60px;
-    }
-    .about-wrapper {
-        background-image: url(../../img/macbook-bg.jpg);
-        background-repeat: no-repeat;
-        background-position: right center;
-        margin-top:
+    .image-macbook {
+        margin-right: -200px;
     }
 }

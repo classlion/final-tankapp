@@ -13,7 +13,7 @@ closeNavbarMobile[0].addEventListener("click", function(event) {
 });
 
 
-var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
     pagination: {
@@ -43,4 +43,15 @@ var swiper = new Swiper('.swiper-container', {
             spaceBetween: 40
         }
     }
+});
+
+var swiperSecondary = new Swiper('.swiper-container-secondary', {
+
+    pagination: {
+        el: '.swiper-pagination-secondary',
+        clickable: true,
+        renderBullet: function(index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+    },
 });

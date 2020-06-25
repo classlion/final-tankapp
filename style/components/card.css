@@ -5,13 +5,23 @@
 * Browsers: last 4 version
 */
 
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .card-title {
     font-weight: lighter;
     font-size: 20px;
+    margin: 0;
 }
 
 .card-description {
     font-weight: 12px;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
 }
 
 .card-header {
@@ -21,11 +31,13 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .card-icon {
     margin-right: 20px;
-    height: 45px;
+    margin-bottom: 0;
+    flex-shrink: 0;
 }
 
 .card-description {
