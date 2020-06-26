@@ -11,13 +11,19 @@
 }
 
 .footer-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .footer-mobile>.footer-nav a {
     font-size: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
