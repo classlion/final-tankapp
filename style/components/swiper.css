@@ -56,7 +56,12 @@
 }
 
 .swiper-pagination-secondary {
-    margin-left: 640px;
+    text-align: end;
+    margin-left: -20px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7px;
 }
 
 .swiper-container-secondary .swiper-pagination-bullet {
@@ -75,8 +80,13 @@
     background: #64a4d7;
 }
 
+@media (min-width: 640px) {}
+
 @media (min-width: 1200px) {
     .swiper-container {
         display: none;
     }
+    .swiper-pagination-secondary {}
 }
+
+@media (min-width: 1200px) {}

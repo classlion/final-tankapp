@@ -47,6 +47,7 @@ const swiper = new Swiper('.swiper-container', {
 
 var swiperSecondary = new Swiper('.swiper-container-secondary', {
 
+    spaceBetween: 30,
     pagination: {
         el: '.swiper-pagination-secondary',
         clickable: true,

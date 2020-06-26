@@ -7,17 +7,30 @@
 
 .section-about {
     padding: 70px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-macbook-column {
+    display: none;
 }
 
 @media (min-width: 1200px) {
+    .image-macbook-column {
+        display: block;
+    }
     .section-about {
         padding-top: 110px;
-        margin-bottom: 43px;
+        margin-bottom: 50px;
     }
     .section-about .section-title {
         text-align: end;
     }
     .image-macbook {
-        margin-right: -200px;
+        position: absolute;
+        right: 0;
+    }
+    .section-about-title {
+        margin-bottom: 100px;
     }
 }

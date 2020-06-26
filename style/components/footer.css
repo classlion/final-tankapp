@@ -6,7 +6,8 @@
 */
 
 .section-footer {
-    background-color: #f1f1f2;
+    background-color: #F9F9F9;
+    border-top: 1px #E2E2E2 solid;
 }
 
 .footer-mobile {
