@@ -25,6 +25,7 @@
     }
     .section-about .section-title {
         text-align: end;
+        margin-right: 25px;
     }
     .image-macbook {
         position: absolute;
